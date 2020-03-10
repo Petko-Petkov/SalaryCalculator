@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Configurations\TaxConfigs\TaxConfigs.csproj" />
+    <ProjectReference Include="..\..\Helpers\BaseTypeExtensions\BaseTypeExtensions.csproj" />
+  </ItemGroup>
+
+</Project>
